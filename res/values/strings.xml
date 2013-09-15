@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DawnGate Codex</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dg_logo">DawnGate Logo</string>
+    <string name="shapers">Shapers</string>
+    <string name="items">Items</string>
+    <string name="minimap">Minimap</string>
+    <string name="builds">Builds</string>
+
+</resources>
