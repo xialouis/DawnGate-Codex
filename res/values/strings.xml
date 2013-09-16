@@ -9,5 +9,9 @@
     <string name="items">Items</string>
     <string name="minimap">Minimap</string>
     <string name="builds">Builds</string>
+    <string name="title_activity_shapers_view">ShapersView</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
 
 </resources>

@@ -27,14 +27,15 @@
                 android:padding="30dp" >
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/shapersButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/ic_tactician"
                     android:gravity="center_vertical|center_horizontal"
                     android:minHeight="0dp"
-                    android:minWidth="0dp" />
+                    android:minWidth="0dp" 
+                    android:onClick="homeButtonClicked"/>
 
                 <TextView
                     android:id="@+id/textView1"
@@ -54,13 +55,14 @@
                 android:padding="30dp" >
 
                 <Button
-                    android:id="@+id/Button02"
+                    android:id="@+id/itemsButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/ic_consumable_potion_healingpotion"
                     android:minHeight="0dp"
-                    android:minWidth="0dp" />
+                    android:minWidth="0dp" 
+                    android:onClick="homeButtonClicked"/>
 
                 <TextView
                     android:id="@+id/TextView02"
@@ -86,13 +88,14 @@
                 android:padding="30dp" >
 
                 <Button
-                    android:id="@+id/Button03"
+                    android:id="@+id/minimapButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/ic_minimap"
                     android:minHeight="0dp"
-                    android:minWidth="0dp" />
+                    android:minWidth="0dp" 
+                    android:onClick="homeButtonClicked"/>
 
                 <TextView
                     android:id="@+id/TextView03"
@@ -112,13 +115,14 @@
                 android:padding="30dp" >
 
                 <Button
-                    android:id="@+id/Button01"
+                    android:id="@+id/buildsButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/ic_legendary_destruction"
                     android:minHeight="0dp"
-                    android:minWidth="0dp" />
+                    android:minWidth="0dp" 
+                    android:onClick="homeButtonClicked"/>
 
                 <TextView
                     android:id="@+id/TextView01"
@@ -136,7 +140,7 @@
     </LinearLayout>
 
 	<ImageView
-	    android:id="@id/dgLogo"
+	    android:id="@+id/dgLogo"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
 	    android:layout_alignParentBottom="true"
